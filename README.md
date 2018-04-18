@@ -16,21 +16,19 @@ Once a survey is live, data collection begins and results are available in real-
   * Copy and paste the javascript **code below** with your MID into "Additional scripts"
   * Save
 
-You can also download the *[javascript file](#)*, which contains the basic code.
+You can also download the *[javascript file](https://github.com/bizrateinsights/shopify/blob/master/bri-online-buyer.js)*, which contains the basic code.
 
 ```javascript
-/* ===========================================
+/* ==========================================
 | BIZRATE INSIGHTS' BASIC ONLINE BUYER CODE |
 ----------------------------------------- */
-<!-- Add to HTML body on order confirmation page for bizrate online buyer survey -->
-<!-- Please note that the ##ORDER_ID## placeholder below must be replaced with the data being called from your site -->
 <script type="text/javascript">
   var _cnx = _cnx || [];
 
   _cnx.push(['mid', ##INSERT_STOREMID_HERE##]);  // your unique store MID
   _cnx.push(['surveyType', 'pos']);
-  _cnx.push(['orderId', '{{order.order_number}}']); //pass the customer’s order ID number
-  _cnx.push(['emailAddress', '{{order.email}}']); // pass the customer’s email address
+  _cnx.push(['orderId', '{{order.order_number}}']); // Shopify order number
+  _cnx.push(['emailAddress', '{{order.email}}']); // Shopify customer email address
 
   (function (w, d, t) {
     var s = d.createElement(t);
@@ -63,7 +61,14 @@ Online Buyer customizations include:
 ---
 
 ## Online Buyer Survey Solution (Advanced Setup)
-  * Coming Soon
+By configuring and including optional code snippets, you generate further actionable Insights to improve your website's performance by understanding your customer's experience.  You are encouraged to include all optional passed-in data.  Additional reporting options, which may incur a fee, include:
+
+  * products purchased to analyze and aggregate customer purchasing behavior
+  * referring URL tracking to identify all online properties sending your website traffic
+  * Quick Response to Online Buyers who wish to be contacted regarding their order
+  * customer identification assigned by you including customer ID & web analytics ID
+
+The *[bri-online-buyer.js](https://github.com/bizrateinsights/shopify/blob/master/bri-online-buyer.js)* fill will contain the latest snippets.
 
 ---
 
