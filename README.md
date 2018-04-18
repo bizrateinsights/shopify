@@ -12,7 +12,7 @@ Once a survey is live, data collection begins and results are available in real-
 ### Installation Instructions:
 
 **Shopify Checkout Script**
-  * Access the **Checkout** settings page by going to Admin > Settings > Checkout
+  * Access the **Checkout** settings page by going to Admin > Settings > Checkout in your Shopify store
   * Copy and paste the javascript **code below** with your MID into "Additional scripts"
   * Save
 
@@ -68,7 +68,7 @@ By configuring and including optional code snippets, you generate further action
   * Quick Response to Online Buyers who wish to be contacted regarding their order
   * customer identification assigned by you including customer ID & web analytics ID
 
-The *[bri-online-buyer.js](https://github.com/bizrateinsights/shopify/blob/master/bri-online-buyer.js)* fill will contain the latest snippets.
+The *[bri-online-buyer.js](https://github.com/bizrateinsights/shopify/blob/master/bri-online-buyer.js)* file will always contain the latest snippets.
 
 ---
 
