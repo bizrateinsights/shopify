@@ -3,9 +3,9 @@
 ## Online Buyer Survey Solution
 Bizrate Insights’ Online Buyer Survey Solution generates actionable Insights to improve your website's performance by understanding the voice of your customer and their online experience.
 
-To begin collecting the Voice of the Customer through Bizrate Insights' Online Buyer Survey Solutions, merchants must place Bizrate Insights' asynchronous JavaScript code on their order confirmation page. This will immediately allow you to collect feedback from customers who complete their purchase on your website.
+To begin collecting the Voice of the Customer through Bizrate Insights' Online Buyer Survey Solutions, merchants must place Bizrate Insights' asynchronous JavaScript code on their Shopify order confirmation page. This will immediately allow you to collect feedback from customers who complete their purchase on your Shopify website.
 
-Once a survey is live on your website, data collection begins and results are available in real-time by accessing Bizrate Insights’ online portal, *[VitalSigns](https://vitalsigns.bizrate.com/login?ref=github)*
+Once a survey is live, data collection begins and results are available in real-time by accessing Bizrate Insights’ online portal, *[VitalSigns](https://vitalsigns.bizrate.com/login?ref=github)*
 
 ---
 
@@ -15,6 +15,8 @@ Once a survey is live on your website, data collection begins and results are av
   * Access the **Checkout** settings page by going to Admin > Settings > Checkout
   * Copy and paste the javascript **code below** with your MID into "Additional scripts"
   * Save
+
+You can also download the *[javascript file](#)*, which contains the basic code.
 
 ```javascript
 /* ===========================================
@@ -40,14 +42,14 @@ Once a survey is live on your website, data collection begins and results are av
 ```
 
   * Place a test order
-  * Review, Test, Done :)**
+  * Review, Test, Done :)
 
 ---
 
 ## Maximize the Voice of Online Buyers + Seller Ratings Syndication
 Bizrate Insights’ default invitation settings on the order confirmation page utilize our best practices to optimize response rates, yielding an average of 12% for the Online Buyer Survey.  Survey responses power Seller Ratings via syndication to partners like Google, Bing, and more.
 
-In addition to the data collected on-site, buyers who did not initially respond can be invited to provide feedback via Bizrate Insights’ Second Chance Email.  This survey mirrors the online buyer and fulfillment surveys, but is emailed only to those who did not respond online.  To take advantage of this feature, simply include the customer’s order ID & email address in the JavaScript call.  This solution is quick-to-launch with a low integration cost.
+In addition to the data collected on-site, buyers who did not initially respond can be invited to provide feedback via Bizrate Insights’ Second Chance Email.  This survey mirrors the online buyer and fulfillment surveys, but is emailed only to those who did not respond online.  The necessary variables (customer’s order ID & email address) are included in the basic code. This solution is quick-to-launch with a low integration cost.
 
 **Important Note:** Bizrate Insights is committed to protecting customer privacy and will not store, rent, sell, or use customer email addresses provided to us by merchants for any purpose other than to send initial and reminder email survey invitations.  These customer email addresses are deleted from the database once the survey invitations are emailed.
 
